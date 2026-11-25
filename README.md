@@ -60,7 +60,7 @@ Open **Apps → BusyRoad** on your BUSY Bar's local web page. Save your changes 
 | **Temperature units** | **Celsius** (°C, default) or **Fahrenheit** (°F) on the rear display. |
 | **Wiper interval** | **Manual** (default), or every **5, 10, 20, 30, or 60 seconds**. Pressing **Start** runs the wiper and restarts the interval. |
 
-The local web interface uses BUSY's city search. BusyRoad sends the selected coordinates to Open-Meteo to fetch the weather.
+The local web interface uses BUSY's city search. BusyRoad sends the selected coordinates to Open-Meteo to fetch the weather. [Privacy notice](PRIVACY.md).
 
 ## Build and run
 
