@@ -1,0 +1,10 @@
+{
+  "format_version": 1,
+  "id": "app.busyroad.drive",
+  "name": "BusyRoad",
+  "version": "1.0.0",
+  "api_version": "27.9.0",
+  "description": "A pixel-art drive through the weather outside.",
+  "author": "BusyRoad",
+  "heap_size_kib": 256
+}

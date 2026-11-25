@@ -1,0 +1,41 @@
+{
+  "format_version": 1,
+  "version": 1,
+  "fields": {
+    "location": {
+      "label": "City and country",
+      "description": "Search for a city, then select the result for your country.",
+      "type": "geolocation",
+      "default": {
+        "mode": "fixed",
+        "name": "San Francisco, US",
+        "lat": 37.7749,
+        "lon": -122.4194
+      }
+    },
+    "units": {
+      "label": "Temperature units",
+      "description": "Units shown on the back display.",
+      "type": "enum",
+      "default": "celsius",
+      "options": [
+        { "value": "celsius", "label": "Celsius" },
+        { "value": "fahrenheit", "label": "Fahrenheit" }
+      ]
+    },
+    "wiper_interval": {
+      "label": "Wiper interval",
+      "description": "Choose automatic wipes or use the Start button.",
+      "type": "enum",
+      "default": "0",
+      "options": [
+        { "value": "0", "label": "Manual" },
+        { "value": "5", "label": "5 seconds" },
+        { "value": "10", "label": "10 seconds" },
+        { "value": "20", "label": "20 seconds" },
+        { "value": "30", "label": "30 seconds" },
+        { "value": "60", "label": "60 seconds" }
+      ]
+    }
+  }
+}
